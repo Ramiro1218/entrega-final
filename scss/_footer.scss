@@ -1,0 +1,43 @@
+footer {
+
+    
+
+    color: #fff;
+    background-color: #520000;
+    text-align: center;
+    padding: $spacing20px;
+    border: #000 solid 2px;
+
+        .redes {
+
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        
+    
+    
+    }
+
+    .contactos {
+
+        text-align: center;
+        
+        padding: $spacing20px;
+    }
+}
+@media screen and (min-width: 800px) {
+
+    .redes {
+
+        
+        display: flex;
+        justify-content: end;
+        margin: 50px 50px 0 50px;
+        
+        a { 
+
+            font-size: x-large; 
+            padding: 20px 30px;
+        }   
+    }
+}

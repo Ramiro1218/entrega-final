@@ -1,0 +1,48 @@
+//variables
+$spacing10px: 10px 10px;
+$spacing20px: 20px 20px;
+$spacing40px-10px: 40px 10px;
+
+
+//operaciones
+$red: #520000;
+
+//each
+$redes: (
+    
+    instagram: #800599,
+	facebook: #2956a3,
+    wsp: #149025,
+	contacto: #919191
+);
+
+@each $red, $color in $redes {
+    .red--#{$red} {
+        color: $color;
+        &:hover {
+            color: white;
+            .red__nombre {
+                color: $color;
+            }
+        }
+    }
+}
+
+
+@mixin color-border ($stock: true) {
+
+    @if $stock  {
+        
+        border-color: $red;
+    }
+
+    @else {
+
+        border-color: #919191;
+        opacity: 0.5;
+
+    }
+    
+}
+
+

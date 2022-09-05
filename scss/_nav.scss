@@ -1,0 +1,42 @@
+nav {
+
+    padding: 0 !important;
+
+
+    .container-fluid {
+
+        background-color: #520000;
+    
+
+        .navbar-brand img {
+
+        width: 70px;
+        height: 70px;
+
+        }
+
+        li {
+
+            a  {
+            color: #888888;
+            margin: $spacing10px;
+            
+            }
+
+            i {
+            color: #888888;
+            }
+        }
+
+        @media screen and (min-width: 720px) { 
+
+            li {
+
+                a {
+                font-size: large;
+                }
+            }
+        
+        }
+    }
+}

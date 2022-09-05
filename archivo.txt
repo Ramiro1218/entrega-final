@@ -1,0 +1,31 @@
+Nav:
+
+Agregue // Bootstrap con la opcion de Navbar
+           Libreria de iconos
+
+Footer:
+
+Agregue // Uso de Bucle each para los colores de redes sociales
+
+Index: 
+
+Agregue // Bootstrap dentro del nav y carrusel
+           Animaciones (transformaciones y transiciones)
+
+Nosotros:
+
+Agregue// Grid areas mediante Bootstrap
+          Uso de flexbox y Bootstrap (acordion)
+
+Productos:
+
+Agregue// Flexbox
+          Uso de mixin if y else
+
+Contacto:
+
+Agregue // Formulario
+           
+
+
+
